@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Всеукраїнська юніорська олімпіада">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Работа в Польше</title>
+  </head>
+<body>
+    <nav class="nav" id="navbar">
+       <ul id="menu">
+           <li><a href="">Телефон: +380990085549</a></li>
+           <li><a href="">+48575388500</a></li>
+           <li><a href="">Вайбер: +380990085549</a></li>           
+       </ul>
+   </nav>
+   <!-- Swiperslider -->
+   <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(./images/swiper/swiper1.jpg)">
+                <div class="textSlider">
+                    <h1>Польша! работа в сельском хозяйстве!</h1>            
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./images/swiper/swiper2.jpg)">
+                <div class="textSlider">
+                    <h1>Польша! работа в сельском хозяйстве!</h1>            
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./images/swiper/swiper3.jpg)">
+                <div class="textSlider">
+                    <h1>Польша! работа в сельском хозяйстве!</h1>            
+                </div>
+            </div>      
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <!-- End Swiperslider -->
+    <!-- Vacancy -->
+    <h2>Вакансии</h2>
+    <div id="vacancy">    
+        <div class="backgroundDiv"></div>
+        <div class="vacancyList">
+            <div class="cardVacancy">
+                <div class="imgVacancy">
+                    <img src="" alt="">
+                </div>
+                <div class="contentVacancy">
+                    <h3>Разноробочие (работа в поле)</h3>
+                </div>
+            </div>
+            <div class="cardVacancy">
+                <div class="imgVacancy">
+                    <img src="" alt="">
+                </div>
+                <div class="contentVacancy">
+                    <h3>Трактористы категории Т</h3>
+                </div>
+            </div>
+            <div class="cardVacancy">
+                <div class="imgVacancy">
+                    <img src="" alt="">
+                </div>
+                <div class="contentVacancy">
+                    <h3>Водители категории D</h3>
+                </div>
+            </div>
+            <div class="cardVacancy">
+                <div class="imgVacancy">
+                    <img src="" alt="">
+                </div>
+                <div class="contentVacancy">
+                    <h3>Механики</h3>
+                </div>
+            </div>
+            <div class="cardVacancy">
+                <div class="imgVacancy">
+                    <img src="" alt="">
+                </div>
+                <div class="contentVacancy">
+                    <h3>Сварщики</h3>
+                </div>
+            </div>
+            <div class="cardVacancy">
+                <div class="imgVacancy">
+                    <img src="" alt="">
+                </div>
+                <div class="contentVacancy">
+                    <h3>Работа на складе</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End vacancy-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
+</body> 
+</html> 
