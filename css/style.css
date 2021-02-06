@@ -18,6 +18,12 @@ h1
   font-weight: 600;
   letter-spacing: 1px;
 }
+h2
+{
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
 nav
 {
   background: gray;
@@ -70,7 +76,71 @@ nav ul li a
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.675;
-  background-image: url(../images/grass2.jpg);
+  opacity: 0.775;
+  background-image: url(../images/simplegrass.jpg);
   background-size: cover;
+}
+.vacancyList
+{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+.cardVacancy
+{
+  position: relative;
+  width: 370px;
+  height: 470px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 15px;
+}
+.cardVacancy .imgVacancy img
+{
+  width: 370px;
+  height: 250px;
+}
+.contentVacancy h3
+{
+  text-align: center;
+  font-size: 24px;
+  padding-top: 84px;
+}
+#offer
+{
+  position: relative;
+  margin: 70px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#offerList ul
+{
+  list-style: none;
+  margin-right: 20px;
+}
+#offerList ul li
+{
+  padding: 10px 0;
+  width: 580px;
+  height: 45px;
+  background: #84b637;
+  margin-bottom: 5px;
+}
+#offerList ul li:hover
+{
+  transform: scale(1.1);
+
+}
+#offerList ul li:hover span
+{
+  font-size: 24px;
+}
+#offerList ul li span
+{
+  font-size: 24px;
+  padding-left: 10px;
 }
