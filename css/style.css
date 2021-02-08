@@ -26,7 +26,7 @@ h2
 }
 nav
 {
-  background: gray;
+  background: #3f5041;;
   position: fixed;
   top: 0;
   left: 0;
@@ -168,6 +168,60 @@ nav ul li a
   line-height: 50px;
   color: #fff;
 }
+#response
+{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+#response .responseCard
+{
+  position: relative;
+  max-width: 450px;
+  background: #44722f;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+}
+#response .responseCard .imgResponse
+{
+  max-width: 150px;
+  flex: 0 0 150px;
+  margin-top: 10px;
+}
+#response .responseCard .imgResponse img
+{
+  width: 100%;
+  height: auto;
+}
+#response .responseCard .contentResponse
+{
+  margin-left: 20px;
+  color: #fff;
+}
+#response .responseCard .contentResponse h2
+{
+  font-size: 28px;
+  margin: 10px;
+}
+#response .responseCard .contentResponse p
+{
+  font-size: 18px;
+}
+footer
+ {
+   display: flex;
+   height: 80px;
+   width: 100%;
+   justify-content: space-evenly;
+   align-items: center;
+   color: #fff;
+   background: #111111;
+   font-size: 18px;
+ }
 @media (max-width: 1200px)
 {
   #offer
@@ -193,6 +247,24 @@ nav ul li a
   .swiper-container{
     margin-top: 115px;
   }
+  #response
+  {
+    justify-content: center;
+  }
+  #response .responseCard
+    {
+      flex-direction: column;
+      max-width: 350px;
+      justify-content: center;
+    }
+  #response  .responseCard .imgResponse
+    {
+      max-width: 100%;
+    }
+  footer{
+    height: 120px;
+    flex-wrap: wrap;
+  }  
 }
 @media (max-width: 650px)
 {
@@ -252,5 +324,8 @@ nav ul li a
   }
   .cardVacancy .imgVacancy img{
     width: 330px;
+  }
+  footer{
+    height: 160px;
   }
 }
